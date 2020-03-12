@@ -20,7 +20,7 @@ git add file.sql
 
 git commit -m "**C-BB-2020-03-12-1**"
 
-git push -u origin <branch-name>
+git push -u origin branch-name
 
 Your second commit in the same day will look like this:
 
@@ -32,3 +32,6 @@ git commit -m "**C-BB-2020-03-12-2**"
 ##### C-BB-2020-03-12-3:
 - **How to commit** added to README.md
 - **units.sql** added
+
+##### C-BB-2020-03-12-4:
+- **How to commit** edited
