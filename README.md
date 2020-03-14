@@ -1,7 +1,5 @@
 # seasony-mock-data
 
-[The Database diagram is available here: https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4][https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4]
-
 ##### 2020/03/12 - The repository is created
 
 How to commit:
@@ -51,4 +49,11 @@ git commit -m "**C-BB-2020-03-12-2**"
 - all sql statements are consolidated in the Seasony Final.sql
 - all the other files are deleted
 - tables data are exported into json filed in the json folder
+
+##### C-BB-2020-03-14-2:
+ - area_materials.json created
+ - Seasony Final.sql updated
+ - the https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4 is outdated 
+ 
 [https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4]: https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4
+
