@@ -1,10 +1,12 @@
 # seasony-mock-data
 
+[The Database diagram is available here: https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4][https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4]
+
 ##### 2020/03/12 - The repository is created
 
 How to commit:
 
-After changing the code please add an entry in the README.md with the folloing format:
+After changing the code please add an entry in the README.md with the following format:
 
 ### C-[YOUR INITIALS]-YYYY-MM-DD-[The number of your commit of the day]
 
@@ -35,3 +37,18 @@ git commit -m "**C-BB-2020-03-12-2**"
 
 ##### C-BB-2020-03-12-4:
 - **How to commit** edited
+
+##### C-BB-2020-03-14-1:
+- milligram added to units
+- materials.sql added
+- area_materials.sql added
+- the data model changed
+  - Table batch_area_crop_stages added to keep track of the stages which the crops are going to
+- Relations changed according to the new table
+- all primary keys are simplified to id
+- crops stages turned into a table
+  - new relations created
+- all sql statements are consolidated in the Seasony Final.sql
+- all the other files are deleted
+- tables data are exported into json filed in the json folder
+[https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4]: https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4

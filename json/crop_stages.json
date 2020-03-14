@@ -1,0 +1,7 @@
+[{"id":1, "name":"seeding", "created_at":"2020-03-14 13:43:09", "updated_at":"2020-03-14 13:43:09"},
+ {"id":2, "name":"propagation", "created_at":"2020-03-14 13:43:09", "updated_at":"2020-03-14 13:43:09"},
+ {"id":3, "name":"maturity", "created_at":"2020-03-14 13:43:09", "updated_at":"2020-03-14 13:43:09"},
+ {"id":4, "name":"harvest", "created_at":"2020-03-14 13:43:09", "updated_at":"2020-03-14 13:43:09"},
+ {"id":5, "name":"storage", "created_at":"2020-03-14 13:43:09", "updated_at":"2020-03-14 13:43:09"},
+ {"id":6, "name":"delivery", "created_at":"2020-03-14 13:43:09", "updated_at":"2020-03-14 13:43:09"},
+ {"id":7, "name":"", "created_at":"2020-03-14 13:43:09", "updated_at":"2020-03-14 13:43:09"}]
