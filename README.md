@@ -58,6 +58,10 @@ git commit -m "**C-BB-2020-03-12-2**"
   
 ##### C-BB-2020-03-15-3:
  - Seasony Final.sql update with area_material
+ - dump.sql is added
+ 
+ ##### C-BB-2020-03-15-4:
+  - area_material.json added
  
 [https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4]: https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4
 
