@@ -127,13 +127,12 @@ CREATE TABLE `area_users`
 
 CREATE TABLE `area_materials`
 (
-    `id`         int PRIMARY KEY     NOT NULL AUTO_INCREMENT,
-    `name`       varchar(255) UNIQUE NOT NULL,
-    `fk_user_id` int                 NOT NULL,
-    `fk_area_id` int                 NOT NULL,
-    `created_at` timestamp           NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    `updated_at` timestamp           NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    `deleted`    int(1)              NOT NULL DEFAULT 0
+    `id`             int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    `fk_material_id` int             NOT NULL,
+    `fk_area_id`     int             NOT NULL,
+    `created_at`     timestamp       NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    `updated_at`     timestamp       NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    `deleted`        int(1)          NOT NULL DEFAULT 0
 );
 
 CREATE TABLE `area_material_logs`
@@ -194,6 +193,9 @@ ALTER TABLE `batch_areas`
 
 ALTER TABLE `area_materials`
     ADD FOREIGN KEY (`fk_area_id`) REFERENCES `areas` (`id`);
+
+ALTER TABLE `area_materials`
+    ADD FOREIGN KEY (`fk_material_id`) REFERENCES `materials` (`id`);
 
 ALTER TABLE `batch_area_nonreusable_resource_consumption`
     ADD FOREIGN KEY (`fk_batch_area_id`) REFERENCES `batch_areas` (`id`);
@@ -508,115 +510,206 @@ values ('seeding'),
        ('god_bad');
 
 
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 1, 'temperature', 20, 22, 25, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 1, 'humidity', 70, 80, 90, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 1, 'ph', 7, 7, 7, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 1, 'ec', 700, 900, 1120, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 1, 'water_level', 150, 500, 900, '2020-03-11', '2020-03-11');
 
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 2, 'temperature', 20, 22, 25, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 2, 'humidity', 70, 80, 90, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 2, 'ph', 7, 7, 7, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 2, 'ec', 700, 900, 1120, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 2, 'water_level', 150, 500, 900, '2020-03-11', '2020-03-11');
 
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 3, 'temperature', 20, 22, 25, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 3, 'humidity', 70, 80, 90, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 3, 'ph', 7, 7, 7, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 3, 'ec', 700, 900, 1120, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 3, 'water_level', 150, 500, 900, '2020-03-11', '2020-03-11');
 
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 4, 'temperature', 20, 22, 25, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 4, 'humidity', 70, 80, 90, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 4, 'ph', 7, 7, 7, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 4, 'ec', 700, 900, 1120, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 4, 'water_level', 150, 500, 900, '2020-03-11', '2020-03-11');
 
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 5, 'temperature', 20, 22, 25, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 5, 'humidity', 70, 80, 90, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 5, 'ph', 7, 7, 7, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 5, 'ec', 700, 900, 1120, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (1, 5, 'water_level', 150, 500, 900, '2020-03-11', '2020-03-11');
 
 
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 1, 'temperature', 20, 22, 25, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 1, 'humidity', 70, 80, 90, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 1, 'ph', 7, 7, 7, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 1, 'ec', 700, 900, 1120, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 1, 'water_level', 150, 500, 900, '2020-03-11', '2020-03-11');
 
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 2, 'temperature', 20, 22, 25, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 2, 'humidity', 70, 80, 90, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 2, 'ph', 7, 7, 7, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 2, 'ec', 700, 900, 1120, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 2, 'water_level', 150, 500, 900, '2020-03-11', '2020-03-11');
 
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 3, 'temperature', 20, 22, 25, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 3, 'humidity', 70, 80, 90, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 3, 'ph', 7, 7, 7, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 3, 'ec', 700, 900, 1120, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 3, 'water_level', 150, 500, 900, '2020-03-11', '2020-03-11');
 
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 4, 'temperature', 20, 22, 25, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 4, 'humidity', 70, 80, 90, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 4, 'ph', 7, 7, 7, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 4, 'ec', 700, 900, 1120, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 4, 'water_level', 150, 500, 900, '2020-03-11', '2020-03-11');
 
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 5, 'temperature', 20, 22, 25, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 5, 'humidity', 70, 80, 90, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 5, 'ph', 7, 7, 7, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 5, 'ec', 700, 900, 1120, '2020-03-11', '2020-03-11');
-insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value, created_at, updated_at)
+insert into crop_stage_defaults (fk_crop_id, fk_crop_stage_id, parameter, min_value, optimum_value, max_value,
+                                 created_at, updated_at)
 values (2, 5, 'water_level', 150, 500, 900, '2020-03-11', '2020-03-11');
 
 
+insert into area_materials (fk_material_id, fk_area_id)
+values (42, 5),
+       (43, 5),
+       (44, 5),
+       (45, 5),
+       (46, 5),
+       (47, 5),
+       (48, 5),
+       (52, 5),
+       (42, 6),
+       (43, 6),
+       (44, 6),
+       (46, 6),
+       (46, 6),
+       (47, 6),
+       (48, 6),
+       (52, 6),
+       (42, 7),
+       (43, 7),
+       (44, 7),
+       (47, 7),
+       (46, 7),
+       (47, 7),
+       (48, 7),
+       (52, 7),
+       (42, 8),
+       (43, 8),
+       (44, 8),
+       (48, 8),
+       (46, 8),
+       (47, 8),
+       (48, 8),
+       (52, 8),
+       (42, 9),
+       (43, 9),
+       (44, 9),
+       (48, 9),
+       (46, 9),
+       (47, 9),
+       (48, 9),
+       (52, 9);

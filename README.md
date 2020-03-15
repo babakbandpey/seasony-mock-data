@@ -51,9 +51,13 @@ git commit -m "**C-BB-2020-03-12-2**"
 - tables data are exported into json filed in the json folder
 
 ##### C-BB-2020-03-14-2:
- - area_materials.json created
- - Seasony Final.sql updated
- - the https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4 is outdated 
+  - area_materials.json created
+  - Seasony Final.sql updated
+  - the https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4 is outdated 
+  
+  
+##### C-BB-2020-03-15-3:
+ - Seasony Final.sql update with area_material
  
 [https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4]: https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4
 
