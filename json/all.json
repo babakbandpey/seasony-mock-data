@@ -1,0 +1,2329 @@
+{
+  "area_materials": [
+    {
+      "id": 1,
+      "fk_material_id": 42,
+      "fk_area_id": 5,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 2,
+      "fk_material_id": 43,
+      "fk_area_id": 5,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 3,
+      "fk_material_id": 44,
+      "fk_area_id": 5,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 4,
+      "fk_material_id": 45,
+      "fk_area_id": 5,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 5,
+      "fk_material_id": 46,
+      "fk_area_id": 5,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 6,
+      "fk_material_id": 47,
+      "fk_area_id": 5,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 7,
+      "fk_material_id": 48,
+      "fk_area_id": 5,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 8,
+      "fk_material_id": 52,
+      "fk_area_id": 5,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 9,
+      "fk_material_id": 42,
+      "fk_area_id": 6,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 10,
+      "fk_material_id": 43,
+      "fk_area_id": 6,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 11,
+      "fk_material_id": 44,
+      "fk_area_id": 6,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 12,
+      "fk_material_id": 46,
+      "fk_area_id": 6,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 13,
+      "fk_material_id": 46,
+      "fk_area_id": 6,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 14,
+      "fk_material_id": 47,
+      "fk_area_id": 6,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 15,
+      "fk_material_id": 48,
+      "fk_area_id": 6,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 16,
+      "fk_material_id": 52,
+      "fk_area_id": 6,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 17,
+      "fk_material_id": 42,
+      "fk_area_id": 7,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 18,
+      "fk_material_id": 43,
+      "fk_area_id": 7,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 19,
+      "fk_material_id": 44,
+      "fk_area_id": 7,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 20,
+      "fk_material_id": 47,
+      "fk_area_id": 7,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 21,
+      "fk_material_id": 46,
+      "fk_area_id": 7,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 22,
+      "fk_material_id": 47,
+      "fk_area_id": 7,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 23,
+      "fk_material_id": 48,
+      "fk_area_id": 7,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 24,
+      "fk_material_id": 52,
+      "fk_area_id": 7,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 25,
+      "fk_material_id": 42,
+      "fk_area_id": 8,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 26,
+      "fk_material_id": 43,
+      "fk_area_id": 8,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 27,
+      "fk_material_id": 44,
+      "fk_area_id": 8,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 28,
+      "fk_material_id": 48,
+      "fk_area_id": 8,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 29,
+      "fk_material_id": 46,
+      "fk_area_id": 8,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 30,
+      "fk_material_id": 47,
+      "fk_area_id": 8,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 31,
+      "fk_material_id": 48,
+      "fk_area_id": 8,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 32,
+      "fk_material_id": 52,
+      "fk_area_id": 8,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 33,
+      "fk_material_id": 42,
+      "fk_area_id": 9,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 34,
+      "fk_material_id": 43,
+      "fk_area_id": 9,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 35,
+      "fk_material_id": 44,
+      "fk_area_id": 9,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 36,
+      "fk_material_id": 48,
+      "fk_area_id": 9,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 37,
+      "fk_material_id": 46,
+      "fk_area_id": 9,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 38,
+      "fk_material_id": 47,
+      "fk_area_id": 9,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 39,
+      "fk_material_id": 48,
+      "fk_area_id": 9,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    },
+    {
+      "id": 40,
+      "fk_material_id": 52,
+      "fk_area_id": 9,
+      "created_at": "2020-03-14 14:32:24",
+      "updated_at": "2020-03-14 14:32:24",
+      "deleted": 0
+    }
+  ],
+  "areas": [
+    {
+      "id": 1,
+      "name": "area 1",
+      "fk_parent_area_id": 0,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 2,
+      "name": "green house 1",
+      "fk_parent_area_id": 1,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 3,
+      "name": "room 1",
+      "fk_parent_area_id": 2,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 4,
+      "name": "stand 1",
+      "fk_parent_area_id": 3,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 5,
+      "name": "tray 1",
+      "fk_parent_area_id": 4,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 6,
+      "name": "tray 2",
+      "fk_parent_area_id": 4,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 7,
+      "name": "tray 3",
+      "fk_parent_area_id": 4,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 8,
+      "name": "tray 4",
+      "fk_parent_area_id": 4,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 9,
+      "name": "tray 5",
+      "fk_parent_area_id": 4,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 10,
+      "name": "tray 6",
+      "fk_parent_area_id": 4,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 11,
+      "name": "tray 7",
+      "fk_parent_area_id": 4,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 12,
+      "name": "tray 8",
+      "fk_parent_area_id": 4,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 13,
+      "name": "tray 9",
+      "fk_parent_area_id": 4,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 14,
+      "name": "tray 10",
+      "fk_parent_area_id": 4,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 15,
+      "name": "tray 11",
+      "fk_parent_area_id": 4,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 16,
+      "name": "tray 12",
+      "fk_parent_area_id": 4,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 17,
+      "name": "tray 13",
+      "fk_parent_area_id": 4,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 18,
+      "name": "tray 14",
+      "fk_parent_area_id": 4,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 19,
+      "name": "tray 15",
+      "fk_parent_area_id": 4,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 20,
+      "name": "tray 16",
+      "fk_parent_area_id": 4,
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    }
+  ],
+  "batch_areas": [
+    {
+      "id": 1,
+      "fk_batch_id": 1,
+      "fk_area_id": 5,
+      "number_of_pots": 20,
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 2,
+      "fk_batch_id": 1,
+      "fk_area_id": 6,
+      "number_of_pots": 20,
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 3,
+      "fk_batch_id": 1,
+      "fk_area_id": 7,
+      "number_of_pots": 20,
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 4,
+      "fk_batch_id": 1,
+      "fk_area_id": 8,
+      "number_of_pots": 20,
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 5,
+      "fk_batch_id": 1,
+      "fk_area_id": 9,
+      "number_of_pots": 20,
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 6,
+      "fk_batch_id": 1,
+      "fk_area_id": 10,
+      "number_of_pots": 20,
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 7,
+      "fk_batch_id": 1,
+      "fk_area_id": 12,
+      "number_of_pots": 20,
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 8,
+      "fk_batch_id": 1,
+      "fk_area_id": 13,
+      "number_of_pots": 20,
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 9,
+      "fk_batch_id": 2,
+      "fk_area_id": 5,
+      "number_of_pots": 20,
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 10,
+      "fk_batch_id": 2,
+      "fk_area_id": 6,
+      "number_of_pots": 20,
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 11,
+      "fk_batch_id": 2,
+      "fk_area_id": 7,
+      "number_of_pots": 20,
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 12,
+      "fk_batch_id": 2,
+      "fk_area_id": 8,
+      "number_of_pots": 20,
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 13,
+      "fk_batch_id": 2,
+      "fk_area_id": 9,
+      "number_of_pots": 20,
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 14,
+      "fk_batch_id": 2,
+      "fk_area_id": 10,
+      "number_of_pots": 20,
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 15,
+      "fk_batch_id": 2,
+      "fk_area_id": 12,
+      "number_of_pots": 20,
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 16,
+      "fk_batch_id": 2,
+      "fk_area_id": 13,
+      "number_of_pots": 20,
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    }
+  ],
+  "batches": [
+    {
+      "id": 1,
+      "fk_crop_id": 1,
+      "customer_name": "Italian cucine",
+      "seeding_date": "2020-04-01 00:00:00",
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 2,
+      "fk_crop_id": 1,
+      "customer_name": "Italian cucine",
+      "seeding_date": "2020-05-01 00:00:00",
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 3,
+      "fk_crop_id": 1,
+      "customer_name": "Italian cucine",
+      "seeding_date": "2020-06-01 00:00:00",
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 4,
+      "fk_crop_id": 1,
+      "customer_name": "Italian cucine",
+      "seeding_date": "2020-07-01 00:00:00",
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 5,
+      "fk_crop_id": 1,
+      "customer_name": "Italian cucine",
+      "seeding_date": "2020-08-01 00:00:00",
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 6,
+      "fk_crop_id": 1,
+      "customer_name": "Italian cucine",
+      "seeding_date": "2020-09-01 00:00:00",
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 7,
+      "fk_crop_id": 1,
+      "customer_name": "Italian cucine",
+      "seeding_date": "2020-10-01 00:00:00",
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 8,
+      "fk_crop_id": 1,
+      "customer_name": "Italian cucine",
+      "seeding_date": "2020-11-01 00:00:00",
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 9,
+      "fk_crop_id": 2,
+      "customer_name": "Italian cucine",
+      "seeding_date": "2020-04-01 00:00:00",
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 10,
+      "fk_crop_id": 2,
+      "customer_name": "Italian cucine",
+      "seeding_date": "2020-05-01 00:00:00",
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 11,
+      "fk_crop_id": 2,
+      "customer_name": "Italian cucine",
+      "seeding_date": "2020-06-01 00:00:00",
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 12,
+      "fk_crop_id": 2,
+      "customer_name": "Italian cucine",
+      "seeding_date": "2020-07-01 00:00:00",
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 13,
+      "fk_crop_id": 2,
+      "customer_name": "Italian cucine",
+      "seeding_date": "2020-08-01 00:00:00",
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 14,
+      "fk_crop_id": 2,
+      "customer_name": "Italian cucine",
+      "seeding_date": "2020-09-01 00:00:00",
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 15,
+      "fk_crop_id": 2,
+      "customer_name": "Italian cucine",
+      "seeding_date": "2020-10-01 00:00:00",
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    },
+    {
+      "id": 16,
+      "fk_crop_id": 2,
+      "customer_name": "Italian cucine",
+      "seeding_date": "2020-11-01 00:00:00",
+      "created_at": "2020-03-16 17:16:43",
+      "updated_at": "2020-03-16 17:16:43",
+      "deleted": 0
+    }
+  ],
+  "crop_stages_default_values": [
+    {
+      "id": 1,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 1,
+      "parameter": "temperature",
+      "min_value": 20.0,
+      "optimum_value": 22.0,
+      "max_value": 25.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 2,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 1,
+      "parameter": "humidity",
+      "min_value": 70.0,
+      "optimum_value": 80.0,
+      "max_value": 90.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 3,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 1,
+      "parameter": "ph",
+      "min_value": 7.0,
+      "optimum_value": 7.0,
+      "max_value": 7.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 4,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 1,
+      "parameter": "ec",
+      "min_value": 700.0,
+      "optimum_value": 900.0,
+      "max_value": 1120.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 5,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 1,
+      "parameter": "water_level",
+      "min_value": 150.0,
+      "optimum_value": 500.0,
+      "max_value": 900.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 6,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 2,
+      "parameter": "temperature",
+      "min_value": 20.0,
+      "optimum_value": 22.0,
+      "max_value": 25.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 7,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 2,
+      "parameter": "humidity",
+      "min_value": 70.0,
+      "optimum_value": 80.0,
+      "max_value": 90.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 8,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 2,
+      "parameter": "ph",
+      "min_value": 7.0,
+      "optimum_value": 7.0,
+      "max_value": 7.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 9,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 2,
+      "parameter": "ec",
+      "min_value": 700.0,
+      "optimum_value": 900.0,
+      "max_value": 1120.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 10,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 2,
+      "parameter": "water_level",
+      "min_value": 150.0,
+      "optimum_value": 500.0,
+      "max_value": 900.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 11,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 3,
+      "parameter": "temperature",
+      "min_value": 20.0,
+      "optimum_value": 22.0,
+      "max_value": 25.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 12,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 3,
+      "parameter": "humidity",
+      "min_value": 70.0,
+      "optimum_value": 80.0,
+      "max_value": 90.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 13,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 3,
+      "parameter": "ph",
+      "min_value": 7.0,
+      "optimum_value": 7.0,
+      "max_value": 7.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 14,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 3,
+      "parameter": "ec",
+      "min_value": 700.0,
+      "optimum_value": 900.0,
+      "max_value": 1120.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 15,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 3,
+      "parameter": "water_level",
+      "min_value": 150.0,
+      "optimum_value": 500.0,
+      "max_value": 900.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 16,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 4,
+      "parameter": "temperature",
+      "min_value": 20.0,
+      "optimum_value": 22.0,
+      "max_value": 25.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 17,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 4,
+      "parameter": "humidity",
+      "min_value": 70.0,
+      "optimum_value": 80.0,
+      "max_value": 90.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 18,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 4,
+      "parameter": "ph",
+      "min_value": 7.0,
+      "optimum_value": 7.0,
+      "max_value": 7.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 19,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 4,
+      "parameter": "ec",
+      "min_value": 700.0,
+      "optimum_value": 900.0,
+      "max_value": 1120.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 20,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 4,
+      "parameter": "water_level",
+      "min_value": 150.0,
+      "optimum_value": 500.0,
+      "max_value": 900.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 21,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 5,
+      "parameter": "temperature",
+      "min_value": 20.0,
+      "optimum_value": 22.0,
+      "max_value": 25.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 22,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 5,
+      "parameter": "humidity",
+      "min_value": 70.0,
+      "optimum_value": 80.0,
+      "max_value": 90.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 23,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 5,
+      "parameter": "ph",
+      "min_value": 7.0,
+      "optimum_value": 7.0,
+      "max_value": 7.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 24,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 5,
+      "parameter": "ec",
+      "min_value": 700.0,
+      "optimum_value": 900.0,
+      "max_value": 1120.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 25,
+      "fk_crop_id": 1,
+      "fk_crop_stage_id": 5,
+      "parameter": "water_level",
+      "min_value": 150.0,
+      "optimum_value": 500.0,
+      "max_value": 900.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 26,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 1,
+      "parameter": "temperature",
+      "min_value": 20.0,
+      "optimum_value": 22.0,
+      "max_value": 25.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 27,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 1,
+      "parameter": "humidity",
+      "min_value": 70.0,
+      "optimum_value": 80.0,
+      "max_value": 90.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 28,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 1,
+      "parameter": "ph",
+      "min_value": 7.0,
+      "optimum_value": 7.0,
+      "max_value": 7.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 29,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 1,
+      "parameter": "ec",
+      "min_value": 700.0,
+      "optimum_value": 900.0,
+      "max_value": 1120.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 30,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 1,
+      "parameter": "water_level",
+      "min_value": 150.0,
+      "optimum_value": 500.0,
+      "max_value": 900.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 31,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 2,
+      "parameter": "temperature",
+      "min_value": 20.0,
+      "optimum_value": 22.0,
+      "max_value": 25.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 32,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 2,
+      "parameter": "humidity",
+      "min_value": 70.0,
+      "optimum_value": 80.0,
+      "max_value": 90.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 33,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 2,
+      "parameter": "ph",
+      "min_value": 7.0,
+      "optimum_value": 7.0,
+      "max_value": 7.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 34,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 2,
+      "parameter": "ec",
+      "min_value": 700.0,
+      "optimum_value": 900.0,
+      "max_value": 1120.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 35,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 2,
+      "parameter": "water_level",
+      "min_value": 150.0,
+      "optimum_value": 500.0,
+      "max_value": 900.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 36,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 3,
+      "parameter": "temperature",
+      "min_value": 20.0,
+      "optimum_value": 22.0,
+      "max_value": 25.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 37,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 3,
+      "parameter": "humidity",
+      "min_value": 70.0,
+      "optimum_value": 80.0,
+      "max_value": 90.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 38,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 3,
+      "parameter": "ph",
+      "min_value": 7.0,
+      "optimum_value": 7.0,
+      "max_value": 7.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 39,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 3,
+      "parameter": "ec",
+      "min_value": 700.0,
+      "optimum_value": 900.0,
+      "max_value": 1120.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 40,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 3,
+      "parameter": "water_level",
+      "min_value": 150.0,
+      "optimum_value": 500.0,
+      "max_value": 900.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 41,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 4,
+      "parameter": "temperature",
+      "min_value": 20.0,
+      "optimum_value": 22.0,
+      "max_value": 25.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 42,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 4,
+      "parameter": "humidity",
+      "min_value": 70.0,
+      "optimum_value": 80.0,
+      "max_value": 90.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 43,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 4,
+      "parameter": "ph",
+      "min_value": 7.0,
+      "optimum_value": 7.0,
+      "max_value": 7.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 44,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 4,
+      "parameter": "ec",
+      "min_value": 700.0,
+      "optimum_value": 900.0,
+      "max_value": 1120.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 45,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 4,
+      "parameter": "water_level",
+      "min_value": 150.0,
+      "optimum_value": 500.0,
+      "max_value": 900.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 46,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 5,
+      "parameter": "temperature",
+      "min_value": 20.0,
+      "optimum_value": 22.0,
+      "max_value": 25.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 47,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 5,
+      "parameter": "humidity",
+      "min_value": 70.0,
+      "optimum_value": 80.0,
+      "max_value": 90.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 48,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 5,
+      "parameter": "ph",
+      "min_value": 7.0,
+      "optimum_value": 7.0,
+      "max_value": 7.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 49,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 5,
+      "parameter": "ec",
+      "min_value": 700.0,
+      "optimum_value": 900.0,
+      "max_value": 1120.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    },
+    {
+      "id": 50,
+      "fk_crop_id": 2,
+      "fk_crop_stage_id": 5,
+      "parameter": "water_level",
+      "min_value": 150.0,
+      "optimum_value": 500.0,
+      "max_value": 900.0,
+      "created_at": "2020-03-11 00:00:00",
+      "updated_at": "2020-03-11 00:00:00",
+      "deleted": 0
+    }
+  ],
+  "crop_stages": [
+    {
+      "id": 1,
+      "name": "seeding",
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09"
+    },
+    {
+      "id": 2,
+      "name": "propagation",
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09"
+    },
+    {
+      "id": 3,
+      "name": "maturity",
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09"
+    },
+    {
+      "id": 4,
+      "name": "harvest",
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09"
+    },
+    {
+      "id": 5,
+      "name": "storage",
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09"
+    },
+    {
+      "id": 6,
+      "name": "delivery",
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09"
+    },
+    {
+      "id": 7,
+      "name": "",
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09"
+    }
+  ],
+  "crops": [
+    {
+      "id": 1,
+      "name": "Lettuce ",
+      "plant_variety": "Asteraceae",
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    },
+    {
+      "id": 2,
+      "name": "Shiso ",
+      "plant_variety": "Lamiaceae",
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    }
+  ],
+  "materials": [
+    {
+      "id": 1,
+      "name": "ANTIMONY TRISULFIDE",
+      "company_name": "Homeocare Laboratories",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 2,
+      "name": "Diethylpropion hydrochloride",
+      "company_name": "PD-Rx Pharmaceuticals, Inc.",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 3,
+      "name": "ALCOHOL",
+      "company_name": "Triad Group",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 4,
+      "name": "Benzocain",
+      "company_name": "Eau Zone Oils and Fragrances LTD",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 5,
+      "name": "Benazepril hydrochloride",
+      "company_name": "Trigen Laboratories, Inc.",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 6,
+      "name": "Mineral Oil",
+      "company_name": "Best Choice",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 7,
+      "name": "Atomoxetine hydrochloride",
+      "company_name": "Eli Lilly and Company",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 8,
+      "name": "Hydrochlorothiazide",
+      "company_name": "Macleods Pharmaceuticals Limited",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 9,
+      "name": "TITANIUM DIOXIDE",
+      "company_name": "Laboratoires Clarins S.A.",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 10,
+      "name": "loxapine succinate",
+      "company_name": "Watson Pharma, Inc.",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 11,
+      "name": "OCTINOXATE",
+      "company_name": "Ventura Corporation (San Juan, P.R)",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 12,
+      "name": "Aralia racemosa",
+      "company_name": "Apotheca Company",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 13,
+      "name": "Montelukast",
+      "company_name": "Bryant Ranch Prepack",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 14,
+      "name": "Ranitidine",
+      "company_name": "Walgreen Company",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 15,
+      "name": "Isopropyl Alcohol",
+      "company_name": "Wal-Mart Stores Inc",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 16,
+      "name": "LIDOCAINE HYDROCHLORIDE",
+      "company_name": "APP Pharmaceuticals, LLC",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 17,
+      "name": "OCTISALATE",
+      "company_name": "ORIGINS NATURAL RESOURCES INC.",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 18,
+      "name": "sodium fluoride",
+      "company_name": "Chattem, Inc.",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 19,
+      "name": "Fentanyl Citrate",
+      "company_name": "Cantrell Drug Company",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 20,
+      "name": "Acetaminophen, Diphenhydramine HCl",
+      "company_name": "Supervalu Inc",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 21,
+      "name": "CINCHONA OFFICINALIS BARK",
+      "company_name": "Washington Homeopathic Products",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 22,
+      "name": "TOPICAL STARCH",
+      "company_name": "KJI Industrial Co Ltd",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 23,
+      "name": "Levetiracetam",
+      "company_name": "American Health Packaging",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 24,
+      "name": "Prochlorperazine Maleate",
+      "company_name": "Northwind Pharmaceuticals",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 25,
+      "name": "adenosine",
+      "company_name": "IASO Inc",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 26,
+      "name": "zolpidem tartrate",
+      "company_name": "REMEDYREPACK INC.",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 27,
+      "name": "Oxycodone Hydrochloride",
+      "company_name": "Zydus Pharmaceuticals (USA) Inc.",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 28,
+      "name": "CLONAZEPAM",
+      "company_name": "Caraco Pharmaceutical Laboratories, Ltd.",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 29,
+      "name": "IBUPROFEN",
+      "company_name": "Costco Wholesale",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 30,
+      "name": "ONDANSETRON",
+      "company_name": "Rebel Distributors Corp",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 31,
+      "name": "CHLORHEXIDINE GLUCONATE, ETHYL ALCOHOL",
+      "company_name": "MKR International Inc",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 32,
+      "name": "EUPHRASIA STRICTA",
+      "company_name": "Natural Health Supply",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 33,
+      "name": "risperidone",
+      "company_name": "Cardinal Health",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 34,
+      "name": "TRICLOSAN",
+      "company_name": "Volume Distributors, Inc.",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 35,
+      "name": "PANAX GINSENG FRUIT",
+      "company_name": "Korea Genetic Pharm Co., Ltd",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 36,
+      "name": "Octinoxate and Oxybenzone",
+      "company_name": "Ventura Corporation LTD",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 37,
+      "name": "Sodium Citrate",
+      "company_name": "Alva-Amco Pharmacal Companies, Inc.",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 38,
+      "name": "PHENTERMINE HYDROCHLORIDE",
+      "company_name": "Apotheca, Inc.",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 39,
+      "name": "levocetirizine dihydrochloride",
+      "company_name": "UCB, Inc.",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 40,
+      "name": "Tolnaftate",
+      "company_name": "Perrigo New York Inc",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 41,
+      "name": "Oxygen",
+      "company_name": "Coastal Med Tech, Inc.",
+      "fk_unit_id": 1,
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 42,
+      "name": "temprature_sensor",
+      "company_name": "Quaxo",
+      "fk_unit_id": 13,
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    },
+    {
+      "id": 43,
+      "name": "humidity_sensor",
+      "company_name": "Rhyloo",
+      "fk_unit_id": 13,
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    },
+    {
+      "id": 44,
+      "name": "co2_sensor",
+      "company_name": "Katz",
+      "fk_unit_id": 13,
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    },
+    {
+      "id": 45,
+      "name": "gas_sensor",
+      "company_name": "Voomm",
+      "fk_unit_id": 13,
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    },
+    {
+      "id": 46,
+      "name": "water_level_sensor",
+      "company_name": "Topicware",
+      "fk_unit_id": 13,
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    },
+    {
+      "id": 47,
+      "name": "smoke_sensor",
+      "company_name": "Cogidoo",
+      "fk_unit_id": 13,
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    },
+    {
+      "id": 48,
+      "name": "big_tray",
+      "company_name": "Izio",
+      "fk_unit_id": 13,
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    },
+    {
+      "id": 49,
+      "name": "big_pot",
+      "company_name": "Talane",
+      "fk_unit_id": 13,
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    },
+    {
+      "id": 50,
+      "name": "small_tray",
+      "company_name": "Oyope",
+      "fk_unit_id": 13,
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    },
+    {
+      "id": 51,
+      "name": "small_pot",
+      "company_name": "Skipstorm",
+      "fk_unit_id": 13,
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    },
+    {
+      "id": 52,
+      "name": "light_bulb",
+      "company_name": "Dynabox",
+      "fk_unit_id": 13,
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    },
+    {
+      "id": 53,
+      "name": "soil",
+      "company_name": "Dabvine",
+      "fk_unit_id": 14,
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    },
+    {
+      "id": 54,
+      "name": "paper_bag",
+      "company_name": "Eayo",
+      "fk_unit_id": 13,
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    },
+    {
+      "id": 55,
+      "name": "plastic_bag",
+      "company_name": "Twimm",
+      "fk_unit_id": 13,
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    },
+    {
+      "id": 56,
+      "name": "Lettuce_seed",
+      "company_name": "Natural One",
+      "fk_unit_id": 3,
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    },
+    {
+      "id": 57,
+      "name": "Shiso_seed",
+      "company_name": "Natural One",
+      "fk_unit_id": 3,
+      "created_at": "2020-03-14 13:43:09",
+      "updated_at": "2020-03-14 13:43:09",
+      "deleted": 0
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "super_admin",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 2,
+      "name": "admin",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 3,
+      "name": "user",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 4,
+      "name": "purchase",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 5,
+      "name": "sale",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 6,
+      "name": "production",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 7,
+      "name": "sensor",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    }
+  ],
+  "units": [
+    {
+      "id": 1,
+      "name": "milligram",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 2,
+      "name": "gram",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 3,
+      "name": "kilogram",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 4,
+      "name": "millimeter",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 5,
+      "name": "centimeter",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 6,
+      "name": "meter",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 7,
+      "name": "centigrade",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 8,
+      "name": "fahrenheit",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 9,
+      "name": "milliliter",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 10,
+      "name": "centiliter",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 11,
+      "name": "deciliter",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 12,
+      "name": "liter",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 13,
+      "name": "piece",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    },
+    {
+      "id": 14,
+      "name": "cubic_meter",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Nalani Ingry",
+      "email": "ningry0@csmonitor.com",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 2,
+      "name": "Valaria Southeran",
+      "email": "vsoutheran1@amazon.co.uk",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 3,
+      "name": "Oralia Hallatt",
+      "email": "ohallatt2@aboutads.info",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 4,
+      "name": "Diane Woloschin",
+      "email": "dwoloschin3@taobao.com",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 5,
+      "name": "Vasily Trenouth",
+      "email": "vtrenouth4@vimeo.com",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 6,
+      "name": "Fara Spire",
+      "email": "fspire5@nps.gov",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 7,
+      "name": "Moshe Foresight",
+      "email": "mforesight6@smh.com.au",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 8,
+      "name": "Carree Camin",
+      "email": "ccamin7@springer.com",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 9,
+      "name": "Betti Smowton",
+      "email": "bsmowton8@va.gov",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 10,
+      "name": "Stanley Langton",
+      "email": "slangton9@mapy.cz",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 11,
+      "name": "Caterina Easlea",
+      "email": "ceasleaa@joomla.org",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 12,
+      "name": "Florie Wehner",
+      "email": "fwehnerb@amazonaws.com",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 13,
+      "name": "Georgine Manshaw",
+      "email": "gmanshawc@cnet.com",
+      "created_at": "2020-03-14 13:43:07",
+      "updated_at": "2020-03-14 13:43:07",
+      "deleted": 0
+    },
+    {
+      "id": 14,
+      "name": "Laughton O'Doohaine",
+      "email": "lodoohained@printfriendly.com",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 15,
+      "name": "Wally Adnet",
+      "email": "wadnete@fc2.com",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 16,
+      "name": "Rowena Mitrovic",
+      "email": "rmitrovicf@hc360.com",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 17,
+      "name": "Aloysius Brigham",
+      "email": "abrighamg@google.co.uk",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 18,
+      "name": "Joan Shirer",
+      "email": "jshirerh@com.com",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 19,
+      "name": "Lavinie Godlonton",
+      "email": "lgodlontoni@icio.us",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 20,
+      "name": "Agretha Blanchard",
+      "email": "ablanchardj@msn.com",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 21,
+      "name": "Ase Gartshore",
+      "email": "agartshorek@is.gd",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 22,
+      "name": "Jolie Mordey",
+      "email": "jmordeyl@over-blog.com",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 23,
+      "name": "Candy McCurdy",
+      "email": "cmccurdym@blogspot.com",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 24,
+      "name": "Niven Brunsden",
+      "email": "nbrunsdenn@cbc.ca",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 25,
+      "name": "Boote Pinnell",
+      "email": "bpinnello@wix.com",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 26,
+      "name": "Minor Bliven",
+      "email": "mblivenp@scribd.com",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 27,
+      "name": "Timmi Cawson",
+      "email": "tcawsonq@1und1.de",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 28,
+      "name": "Cinderella Brailsford",
+      "email": "cbrailsfordr@webs.com",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 29,
+      "name": "Heywood Osipenko",
+      "email": "hosipenkos@cbsnews.com",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    },
+    {
+      "id": 30,
+      "name": "Gale Osgar",
+      "email": "gosgart@jimdo.com",
+      "created_at": "2020-03-14 13:43:08",
+      "updated_at": "2020-03-14 13:43:08",
+      "deleted": 0
+    }
+  ]
+}

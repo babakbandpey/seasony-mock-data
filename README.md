@@ -69,3 +69,5 @@ git commit -m "**C-BB-2020-03-12-2**"
   - batch_areas populated
   - batch_areas.json added
  
+   ##### C-BB-2020-03-16-2:
+  - all.json is added. This is the collections of the jsons
