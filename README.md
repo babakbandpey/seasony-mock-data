@@ -71,3 +71,9 @@ git commit -m "**C-BB-2020-03-12-2**"
  
    ##### C-BB-2020-03-16-2:
   - all.json is added. This is the collections of the jsons
+  
+   ##### C-BB-2020-03-16-3:
+   - the field deleted's default changed to NULL
+   - a php script to export to json created
+        - run: ` php export_mysql_db_to_json.php > json\all.json`
+   - other json files removed
