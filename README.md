@@ -63,5 +63,9 @@ git commit -m "**C-BB-2020-03-12-2**"
  ##### C-BB-2020-03-15-4:
   - area_material.json added
  
-[https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4]: https://dbdiagram.io/d/5e58dfd24495b02c3b878ba4
-
+  ##### C-BB-2020-03-16-1:
+  - batches populated
+  - batches.json added
+  - batch_areas populated
+  - batch_areas.json added
+ 
